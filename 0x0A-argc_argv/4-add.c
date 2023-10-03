@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
 		/*Condition if one of the number contains symbols that are not digits*/
 		else
 		{
-			printf("Errof\n");
+			printf("Error\n");
 			return (1);
 		}
 
