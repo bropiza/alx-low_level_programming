@@ -8,6 +8,10 @@
  *
  * Return: always 0
  */
+<<<<<<< HEAD
+=======
+
+>>>>>>> dd048657f77cdbd753eaf696a278f9cbf7f61d5a
 int main(void)
 {
 	int n;

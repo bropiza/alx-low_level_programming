@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
@@ -40,4 +41,33 @@ size_t print_list(const list_t *h)
 
 	}
 	return (s);
+=======
+#include <stdlib.h>
+#include <stdio.h>
+#include "lists.h"
+
+/**
+ * print_list - writes the elements of a list_t
+ * @h: the list of list_t
+ *
+ * Return: the number of nodes in h
+ */
+size_t print_list(const list_t *h)
+{
+	size_t c = 0;
+
+	while (h)
+	{
+		if (h->str == NULL)
+			printf("[%d] %s\n", 0, "(nil)");
+
+		else
+
+			printf("[%d] %s\n", h->len, h->str);
+		c++;
+		h = h->next;
+	}
+
+	return (c);
+>>>>>>> dd048657f77cdbd753eaf696a278f9cbf7f61d5a
 }
